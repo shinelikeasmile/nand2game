@@ -1,2 +1,2 @@
-# nand2tetris
-a project-centered course on coursera
+# nand2game
+building a basic computer from first principles
