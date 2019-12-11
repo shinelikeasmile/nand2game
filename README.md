@@ -28,3 +28,15 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 
 <a name="1"></a>
 ## 1. Boolean Logic
+* Boolean Gates are physical implementations of boolean functions.
+* A boolean function is a function that operates on binary inputs and returns outputs.
+* The simplest way to specify a Boolean function is truth table representation. 
+* A boolean function can also be specified using boolean operations over its input variables : Boolean expression 
+* Every Boolean function,no matter how complex, can be expressed using three Boolean operators only : canonical representation.
+* Canonical representation : we OR-together all the terms for all the rows where the function has value 1.
+* The no.of boolean function that can be defined over n binary variables is 2<sup>2</sup><sup><sup>n</sup></sup>
+* if x then y also known as x implies y ( x -> y ) returns 1 when x is 0 or when both are x and y are 1 (Not(x) + y ).
+* And , Or and Not can be constructed from Nand or Nor gates.
+* Every Boolean functions can be contructed from Nand operations alone.
+* A gate is a physical device that implements a Boolean function.
+* 
