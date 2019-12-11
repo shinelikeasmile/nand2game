@@ -27,4 +27,4 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 12. [Operating System](#12)
 
 <a name="1"></a>
-## 1.Boolean Logic
+## 1. Boolean Logic
