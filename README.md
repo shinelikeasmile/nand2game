@@ -48,6 +48,16 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 <p align="center"><img src="/images/1.png"></p>
 
 ### solutions: [project1](https://github.com/shinelikeasmile/nand2game/tree/master/project1)
+<a name="2"></a>
+## 2. Boolean Arithmetic 
+* The ALU is the centerpiece chip that executes all the arithmetic and logical operations performed by the computer.
+* For representing signed bit numbers in binary code we use Two's complement method(radix complement).
+* Two's complement of a number x is defined as 2<sup>n</sup>-x.
+* One's complement of x is -(x+1) in two's complement representation.
+* To get -x from x, leave all the trailing(LSB) 0's and the first least significant 1 intact, then flip all the remaining bits.
+### Project 2: Implemention of ALU.
+<p align="center"><img src="/images/2.png"></p>
 
+<p align="center"><b>ALU Implementation</b><img src="images/3.png"</p>
 
-  
+### solutions: [project2](https://github.com/shinelikeasmile/nand2game/tree/master/project2)
