@@ -45,6 +45,6 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * Multi-Way/Multi-Bit Multiplexor : An m-way n bit multiplexor selects one of m n-bit input buses and outputs it to a single n-bit output bus. The selection is specified by a set of k control bits, where k = log<sub>2</sub>m.
 * Multi-Way/Multi-Bit Demultiplexor : An m-way n bit demultiplexor channels a single n-bit input into one of m possible n-bit outputs. The selection is specified by a set of k control bits, where k=log<sub>2</sub>m.
 ### Project 1 : Implement commonly used 15 logic gates using Nand gate as primitive gate.
-![Project1](/images/1.png)
+<p align="center"><img src="/images/1.png"></p>
 
   
