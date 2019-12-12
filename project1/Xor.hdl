@@ -1,0 +1,25 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/01/Xor.hdl
+
+/**
+ * Exclusive-or gate:
+ * out = not (a == b)
+ */
+
+CHIP Xor {
+    IN a, b;
+    OUT out;
+
+    PARTS:
+    // Put your code here:
+    //logic : observe tha Xor truth table 
+    // we can write Disjuctive normal form of the truth table as
+    // Xor(A,B) = (Not(A) And B) or (A And Not(B))
+    Not(in=a,out=Nota);
+    Not(in=b,out=Notb);
+    And(a=Nota,b=b,out=NotaAndb);
+    And(a=a,b=Notb,out=aAndNotb);
+    Or(a=NotaAndb,b=aAndNotb,out=out);
+}

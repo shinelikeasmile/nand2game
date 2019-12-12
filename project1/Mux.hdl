@@ -1,0 +1,24 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/01/Mux.hdl
+
+/** 
+ * Multiplexor:
+ * out = a if sel == 0
+ *       b otherwise
+ */
+
+CHIP Mux {
+    IN a, b, sel;
+    OUT out;
+
+    PARTS:
+    // Put your code here: 
+    // write a Disjunctive normal form for Mux truth table
+    // then you will get (A And Not(sel)) or (B And sel)
+    Not(in=sel,out=Notsel);
+    And(a=a,b=Notsel,out=AAndNotsel);
+    And(a=b,b=sel,out=BAndsel);
+    Or(a=AAndNotsel,b=BAndsel,out=out); 
+}
