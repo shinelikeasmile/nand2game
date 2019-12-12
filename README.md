@@ -47,7 +47,7 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 ### Project 1 : Implement commonly used 15 logic gates using Nand gate as primitive gate.
 <p align="center"><img src="/images/1.png"></p>
 
-### solutions for Project 1 :
-[Project1](https://github.com/shinelikeasmile/nand2game/tree/master/project1)
+### solutions for Project 1 : [Project1](https://github.com/shinelikeasmile/nand2game/tree/master/project1)
+
 
   
