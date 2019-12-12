@@ -39,4 +39,9 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * And , Or and Not can be constructed from Nand or Nor gates.
 * Every Boolean functions can be contructed from Nand operations alone.
 * A gate is a physical device that implements a Boolean function.
-* 
+* logic design is the art of interconnecting gates in order to implement more complex functionality.
+* Hardware Description Language (HDL)
+* Multi-Bit Multiplexor : An n-bit multiplexor is exactly the same as the binary multiplexor, except that the two inputs are each n-bit wide; the selector is a single bit.
+* Multi-Way/Multi-Bit Multiplexor : An m-way n bit multiplexor selects one of m n-bit input buses and outputs it to a single n-bit output bus. The selection is specified by a set of k control bits, where k = log<sub>2</sub>m.
+* Multi-Way/Multi-Bit Demultiplexor : An m-way n bit demultiplexor channels a single n-bit input into one of m possible n-bit outputs. The selection is specified by a set of k control bits, where k=log<sub>2</sub>m.
+* **Project 1**
