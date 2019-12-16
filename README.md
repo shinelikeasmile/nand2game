@@ -72,5 +72,11 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * Register : A register is a storage device that can store or remember a value over time i.e out(t)=out(t-1).
 <p align="center"><img src="/images/DFF2.png"> <img src="images/RAM.png"</p>
 
+### Project 3:Implementation of Memory.
+<p align="center"><img src="/images/P3.png"></p> 
+
+### solutions: [project3](https://github.com/shinelikeasmile/nand2game/tree/master/project3)
+<a name="4"></a>
+## 4. Machine Language 
 * 
 
