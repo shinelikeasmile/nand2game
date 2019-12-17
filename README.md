@@ -71,7 +71,7 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 
 * Register : A register is a storage device that can store or remember a value over time i.e out(t)=out(t-1).
 * [Register design](/images/DFF2.png)
-* [RAM Design](images/RAM.png")
+* [RAM Design](images/RAM.png)
 
 ### Project 3:Implementation of Memory.
 <p align="center"><img src="/images/P3.png"></p> 
