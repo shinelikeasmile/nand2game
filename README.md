@@ -44,10 +44,10 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * Multi-Bit Multiplexor : An n-bit multiplexor is exactly the same as the binary multiplexor, except that the two inputs are each n-bit wide; the selector is a single bit.
 * Multi-Way/Multi-Bit Multiplexor : An m-way n bit multiplexor selects one of m n-bit input buses and outputs it to a single n-bit output bus. The selection is specified by a set of k control bits, where k = log<sub>2</sub>m.
 * Multi-Way/Multi-Bit Demultiplexor : An m-way n bit demultiplexor channels a single n-bit input into one of m possible n-bit outputs. The selection is specified by a set of k control bits, where k=log<sub>2</sub>m.
-### Project 1: Implement commonly used 15 logic gates using Nand gate as primitive gate.
+#### Project 1: Implement commonly used 15 logic gates using Nand gate as primitive gate.
 <p align="center"><img src="/images/1.png"></p>
 
-### solutions: [project1](https://github.com/shinelikeasmile/nand2game/tree/master/project1)
+#### solutions: [project1](https://github.com/shinelikeasmile/nand2game/tree/master/project1)
 <a name="2"></a>
 ## 2. Boolean Arithmetic 
 * The ALU is the centerpiece chip that executes all the arithmetic and logical operations performed by the computer.
@@ -55,12 +55,12 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * Two's complement of a number x is defined as 2<sup>n</sup>-x.
 * One's complement of x is -(x+1) in two's complement representation.
 * To get -x from x, leave all the trailing(LSB) 0's and the first least significant 1 intact, then flip all the remaining bits.
-### Project 2: Implemention of ALU.
+#### Project 2: Implemention of ALU.
 <p align="center"><img src="/images/2.png"></p>
 
 ####   [ALU Design logic](images/3.png)
 
-### solutions: [project2](https://github.com/shinelikeasmile/nand2game/tree/master/project2)
+#### solutions: [project2](https://github.com/shinelikeasmile/nand2game/tree/master/project2)
 <a name="3"></a>
 ## 3. Sequential Logic
 * Combinational chips can perform processing but they cannot maintain state.
@@ -73,10 +73,10 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * [Register design logic](/images/DFF2.png)
 * [RAM Design logic](images/RAM.png)
 
-### Project 3:Implementation of Memory.
+#### Project 3:Implementation of Memory.
 <p align="center"><img src="/images/P3.png"></p> 
 
-### solutions: [project3](https://github.com/shinelikeasmile/nand2game/tree/master/project3)
+#### solutions: [project3](https://github.com/shinelikeasmile/nand2game/tree/master/project3)
 <a name="4"></a>
 ## 4. Machine Language 
 * 
