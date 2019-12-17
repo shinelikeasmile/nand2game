@@ -58,7 +58,7 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 ### Project 2: Implemention of ALU.
 <p align="center"><img src="/images/2.png"></p>
 
-<p align="center"><b>ALU Implementation</b><img src="images/3.png"</p>
+####   [ALU Design](images/3.png)
 
 ### solutions: [project2](https://github.com/shinelikeasmile/nand2game/tree/master/project2)
 <a name="3"></a>
@@ -67,10 +67,11 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * memory elements are built from sequential chips.
 * flip flop is the most elementary sequential unit. we use DFF out(t)=in(t-1).
 * DFF simply outputs the input value from the previous time unit.
-<p align="center"><img src="/images/dld.png"> <img src="/images/xymak.png"></p>
+####  [Flip Flops](/images/dld.png)
 
 * Register : A register is a storage device that can store or remember a value over time i.e out(t)=out(t-1).
-<p align="center"><img src="/images/DFF2.png"> <img src="images/RAM.png"</p>
+####  [Register design](/images/DFF2.png)
+####  [RAM Design](images/RAM.png")
 
 ### Project 3:Implementation of Memory.
 <p align="center"><img src="/images/P3.png"></p> 
