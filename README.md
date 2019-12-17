@@ -67,11 +67,11 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * memory elements are built from sequential chips.
 * flip flop is the most elementary sequential unit. we use DFF out(t)=in(t-1).
 * DFF simply outputs the input value from the previous time unit.
-####  [Flip Flops](/images/dld.png)
+* [Flip Flops](/images/dld.png)
 
 * Register : A register is a storage device that can store or remember a value over time i.e out(t)=out(t-1).
-####  [Register design](/images/DFF2.png)
-####  [RAM Design](images/RAM.png")
+* [Register design](/images/DFF2.png)
+* [RAM Design](images/RAM.png")
 
 ### Project 3:Implementation of Memory.
 <p align="center"><img src="/images/P3.png"></p> 
