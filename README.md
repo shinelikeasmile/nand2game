@@ -73,7 +73,7 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * [Register design logic](/images/DFF2.png)
 * [RAM Design logic](images/RAM.png)
 
-#### Project 3:Implementation of Memory.
+#### Project 3: Implementation of Memory.
 <p align="center"><img src="/images/P3.png"></p> 
 
 #### solutions: [project3](https://github.com/shinelikeasmile/nand2game/tree/master/project3)
