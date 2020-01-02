@@ -79,5 +79,8 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 #### solutions: [project3](https://github.com/shinelikeasmile/nand2game/tree/master/project3)
 <a name="4"></a>
 ## 4. Machine Language 
-* 
+* The machine language of a computer helps us to understand why its hardware was designed in a certain way.
+* A machine language can be viewed as a an agreed-upon formalism, designed to manipulate a memory using a proccessor and set of registers.
+* a mnemonic is a symbolic label whose name hints at what it stands for.
+*  
 
