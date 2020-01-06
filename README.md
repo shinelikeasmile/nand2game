@@ -81,6 +81,15 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 ## 4. Machine Language 
 * The machine language of a computer helps us to understand why its hardware was designed in a certain way.
 * A machine language can be viewed as a an agreed-upon formalism, designed to manipulate a memory using a proccessor and set of registers.
-* a mnemonic is a symbolic label whose name hints at what it stands for.
-*  
+* A mnemonic is a symbolic label whose name hints at what it stands for.
+* The hack computer is a von neumann platform. it is 16-bit machine, consisting of a CPU, two seperate memory modules serving as instruction memory and data memory and two memory mapped i/o devices : a screen and a keyboard.  
+* instruction memory and data memory both are 16 bit wide and have a 15-bit address space, meaning  that the maximum addressable size of the memory is 32K 16-bit words.
+* The CPU can only execute programs that reside in the instruction memory. The instruction memory is a read-only memory.
+* The Hack machine language has two types of instructions : A-instruction type and C-instruction type.
+* A-instruction :  @value , value is either a non-negative decimal number or a symbol referring to such number.
+* A-instruction is used to set the A register to a 15 bit value.
+* C-instruction : dest=comp;jump , what to compute? where to store the computed value? and what to do next? 
+* if the left-most bit of the instruction is 1 then it is C-type instruction.
+* A refers to Address register , D refers to data register and M refers to the memory location addressed by A.
+* 
 
