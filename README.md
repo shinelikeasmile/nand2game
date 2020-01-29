@@ -44,8 +44,8 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * Multi-Bit Multiplexor : An n-bit multiplexor is exactly the same as the binary multiplexor, except that the two inputs are each n-bit wide; the selector is a single bit.
 * Multi-Way/Multi-Bit Multiplexor : An m-way n bit multiplexor selects one of m n-bit input buses and outputs it to a single n-bit output bus. The selection is specified by a set of k control bits, where k = log<sub>2</sub>m.
 * Multi-Way/Multi-Bit Demultiplexor : An m-way n bit demultiplexor channels a single n-bit input into one of m possible n-bit outputs. The selection is specified by a set of k control bits, where k=log<sub>2</sub>m.
-#### Project 1: Implement commonly used 15 logic gates using Nand gate as primitive gate.
-#### solutions: [project1](https://github.com/shinelikeasmile/nand2game/tree/master/project1)
+  #### Project 1: Implement commonly used 15 logic gates using Nand gate as primitive gate.
+  #### solutions: [project1](https://github.com/shinelikeasmile/nand2game/tree/master/project1)
 <a name="2"></a>
 ## 2. Boolean Arithmetic 
 * The ALU is the centerpiece chip that executes all the arithmetic and logical operations performed by the computer.
@@ -53,9 +53,10 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * Two's complement of a number x is defined as 2<sup>n</sup>-x.
 * One's complement of x is -(x+1) in two's complement representation.
 * To get -x from x, leave all the trailing(LSB) 0's and the first least significant 1 intact, then flip all the remaining bits.
-#### Project 2: Implemention of ALU.
-####   [ALU Design logic](images/3.png)
-#### solutions: [project2](https://github.com/shinelikeasmile/nand2game/tree/master/project2)
+
+  #### Project 2: Implemention of ALU.
+  ####   [ALU Design logic](images/3.png)
+  #### solutions: [project2](https://github.com/shinelikeasmile/nand2game/tree/master/project2)
 <a name="3"></a>
 ## 3. Sequential Logic
 * Combinational chips can perform processing but they cannot maintain state.
@@ -68,8 +69,8 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * [Register design logic](/images/DFF2.png)
 * [RAM Design logic](images/RAM.png)
 
-#### Project 3: Implementation of Memory.
-#### solutions: [project3](https://github.com/shinelikeasmile/nand2game/tree/master/project3)
+  #### Project 3: Implementation of Memory.
+  #### solutions: [project3](https://github.com/shinelikeasmile/nand2game/tree/master/project3)
 <a name="4"></a>
 ## 4. Machine Language 
 * The machine language of a computer helps us to understand why its hardware was designed in a certain way.
@@ -86,8 +87,8 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * A refers to Address register , D refers to data register and M refers to the memory location addressed by A.
 * The assembler, is the program responsible for translating symbolic assembly programs into executable programs written in binary code.In addition, the assembler is responsible for managing all the system and user-defined symbols found in the assembly program, and for replacing them with physical memory addresses, as needed.
 
-#### Project 4: Write programs in HACK assembly language
-#### solutions: [project4](https://github.com/shinelikeasmile/nand2game/tree/master/project4)
+  #### Project 4: Write programs in HACK assembly language
+  #### solutions: [project4](https://github.com/shinelikeasmile/nand2game/tree/master/project4)
 <a name="5"></a>
 ## 5. Computer Architecture
 * we now take all the chips that we built in chapters 1-3 and integrate them into a general-purpose computer capable of running stored programs written in the machine language.
