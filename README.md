@@ -93,7 +93,10 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * A refers to Address register , D refers to data register and M refers to the memory location addressed by A.
 * The assembler, is the program responsible for translating symbolic assembly programs into executable programs written in binary code.In addition, the assembler is responsible for managing all the system and user-defined symbols found in the assembly program, and for replacing them with physical memory addresses, as needed.
 
-#### Project 4: write programs in HACK assembly language
-#### solutions:[project4](https://github.com/shinelikeasmile/nand2game/tree/master/project4)
+#### Project 4: Write programs in HACK assembly language
+#### solutions: [project4](https://github.com/shinelikeasmile/nand2game/tree/master/project4)
+<a name="5"></a>
+## 5. Computer Architecture
+* 
 
 
