@@ -91,5 +91,9 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * C-instruction : dest=comp;jump , what to compute? where to store the computed value? and what to do next? 
 * if the left-most bit of the instruction is 1 then it is C-type instruction.
 * A refers to Address register , D refers to data register and M refers to the memory location addressed by A.
-* 
+* The assembler, is the program responsible for translating symbolic assembly programs into executable programs written in binary code.In addition, the assembler is responsible for managing all the system and user-defined symbols found in the assembly program, and for replacing them with physical memory addresses, as needed.
+
+#### Project 4: write programs in HACK assembly language
+#### solutions:[project4](https://github.com/shinelikeasmile/nand2game/tree/master/project4)
+
 
