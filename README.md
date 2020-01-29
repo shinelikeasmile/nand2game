@@ -97,6 +97,9 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * The HACK platform is a 16-bit Von Neumann machine, consisting of CPU, two seperate memory modules serving as instruction memory and data memory, and two memory-mapped I/O devices: a screen and a keyboard. 
 * The HACK instruction memory is implemented in a direct-access Read only memory device, also called ROM. The HACK ROM consists of 32K addressable 16-bit registers.
 * HACK's data memory chip has the interface to read the contents of register n, we put n in the memory's address input and probe the memory's out output. This is a combinational operation, independent of the clock. TO write a value v into register n, we put v in the in input , n in the address input, and assert the memory's load bit.This is a sequential operation, and so register n will commit to the new value v in the next clock cycle. The data memory also interfaces between the CPU and the computer's input/output devices , using memory maps.
-* 
+* The top-most chip in the HACK hardware hierarchy is a complete computer system designed to execute programs written in the HACK machine language.
+  #### Project 5: Build the HACK computer platform, culminating in the topmost Computer chip.
+  #### solutions: [project5](https://github.com/shinelikeasmile/nand2game/tree/master/project5)
+  
 
 
