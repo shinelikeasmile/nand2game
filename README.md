@@ -45,8 +45,6 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * Multi-Way/Multi-Bit Multiplexor : An m-way n bit multiplexor selects one of m n-bit input buses and outputs it to a single n-bit output bus. The selection is specified by a set of k control bits, where k = log<sub>2</sub>m.
 * Multi-Way/Multi-Bit Demultiplexor : An m-way n bit demultiplexor channels a single n-bit input into one of m possible n-bit outputs. The selection is specified by a set of k control bits, where k=log<sub>2</sub>m.
 #### Project 1: Implement commonly used 15 logic gates using Nand gate as primitive gate.
-<p align="center"><img src="/images/1.png"></p>
-
 #### solutions: [project1](https://github.com/shinelikeasmile/nand2game/tree/master/project1)
 <a name="2"></a>
 ## 2. Boolean Arithmetic 
@@ -56,10 +54,7 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * One's complement of x is -(x+1) in two's complement representation.
 * To get -x from x, leave all the trailing(LSB) 0's and the first least significant 1 intact, then flip all the remaining bits.
 #### Project 2: Implemention of ALU.
-<p align="center"><img src="/images/2.png"></p>
-
 ####   [ALU Design logic](images/3.png)
-
 #### solutions: [project2](https://github.com/shinelikeasmile/nand2game/tree/master/project2)
 <a name="3"></a>
 ## 3. Sequential Logic
@@ -74,8 +69,6 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * [RAM Design logic](images/RAM.png)
 
 #### Project 3: Implementation of Memory.
-<p align="center"><img src="/images/P3.png"></p> 
-
 #### solutions: [project3](https://github.com/shinelikeasmile/nand2game/tree/master/project3)
 <a name="4"></a>
 ## 4. Machine Language 
@@ -97,6 +90,12 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 #### solutions: [project4](https://github.com/shinelikeasmile/nand2game/tree/master/project4)
 <a name="5"></a>
 ## 5. Computer Architecture
+* we now take all the chips that we built in chapters 1-3 and integrate them into a general-purpose computer capable of running stored programs written in the machine language.
+* The Von Neumann Architecture describes the architecture of almost all digital computers. The program that operates the computer resides in its memory,in accordance with the "stored program" concept.
+* The CPU operation is a repeated loop: fetch an instruction (word) from memory; decode it; execute it, fetch the next instruction, and so on.
+* The HACK platform is a 16-bit Von Neumann machine, consisting of CPU, two seperate memory modules serving as instruction memory and data memory, and two memory-mapped I/O devices: a screen and a keyboard. 
+* The HACK instruction memory is implemented in a direct-access Read only memory device, also called ROM. The HACK ROM consists of 32K addressable 16-bit registers.
+* HACK's data memory chip has the interface to read the contents of register n, we put n in the memory's address input and probe the memory's out output. This is a combinational operation, independent of the clock. TO write a value v into register n, we put v in the in input , n in the address input, and assert the memory's load bit.This is a sequential operation, and so register n will commit to the new value v in the next clock cycle. The data memory also interfaces between the CPU and the computer's input/output devices , using memory maps.
 * 
 
 
