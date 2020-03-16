@@ -100,6 +100,13 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * The top-most chip in the HACK hardware hierarchy is a complete computer system designed to execute programs written in the HACK machine language.
   #### Project 5: Build the HACK computer platform, culminating in the topmost Computer chip.
   #### solutions: [project5](https://github.com/shinelikeasmile/nand2game/tree/master/project5)
+<a name="6"></a>
+## 6. Assembler
+* The assembler is expected to manage the user-defined symbols and resolve them to physical memory addresses.
+* The assembler parses each assembly command into its underlying fields, translates each field into its equivalent binary code, and assembles the generated codes into a binary instruction that can be actually executed by the hardware.
+  #### Project 6: Build the Assembler.
+  #### solutions: [project6](https://github.com/shinelikeasmile/nand2game/tree/master/project6)
+  
   
 
 
