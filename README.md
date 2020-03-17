@@ -112,6 +112,11 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * stack pointer points to the location in which the next value is going to be pushed.
 * stack machine is manipulated by : Arithmetic/logical commands,memory segment commands,Branching commands, Function commands 
 * any arithmetic or logical expression can be expressed and evaluated by applying some sequence of the above operations on a stack.
+* The VM abstraction doesn't recognise symbolic variable names.All the variables are replaced by references to memory segments.
+* Our VM is modelled after the JVM.
+* push/pop segment i 
+* there are eight memory segments in virtual machine : 1) local 2) arguement 3) this 4) that 5) constant 6) static 7) pointer 8) temp.
+* when translating the high-level code of some method into VM code , the compiler maps the method's local and arguement variables onto the local and arguement segments similarily the object and fields and the array entries that the method is currently processing on the this and that segments.
 * 
   
   
