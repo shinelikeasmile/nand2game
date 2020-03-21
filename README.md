@@ -119,7 +119,7 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * when translating the high-level code of some method into VM code , the compiler maps the method's local and arguement variables onto the local and arguement segments similarily the object and fields and the array entries that the method is currently processing on the this and that segments.
 * VM Language consists of four categories in commands that is arithmeti/logical commands , memory access commands , branching commands , function commands.
 #### project 7: Build a basic VM translator that handles a subset of the VM language: stack arithmetic and memory access (push/pop) commands.
-#### solutions :[project7](https://github.com/shinelikeasmile/nand2game/tree/master/project7)
+#### solutions: [project7](https://github.com/shinelikeasmile/nand2game/tree/master/project7)
   
   
   
