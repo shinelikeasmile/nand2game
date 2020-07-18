@@ -123,8 +123,11 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 * VM Language consists of four categories in commands that is arithmetic/logical commands , memory access commands , branching commands , function commands.
   #### project 7: Build a basic VM translator that handles a subset of the VM language: stack arithmetic and memory access (push/pop) commands.
   #### solutions: [project7](https://github.com/shinelikeasmile/nand2game/tree/master/project7)
-  
-  
+<a name="8"></a>
+## 8. Virtual Machine 2 : Program Control
+* In this module we deal with branching commands and function commands. 
+* Branching are of two types : unconditional (goto label) and conditional (if-goto label). Branching in VM code can be realised using branching in assembly code.
+* 
   
 
 
