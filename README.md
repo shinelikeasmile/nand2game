@@ -127,6 +127,8 @@ It contains 12 chapters, each dedicated to a key hardware or software abstractio
 ## 8. Virtual Machine 2 : Program Control
 * In this module we deal with branching commands and function commands. 
 * Branching are of two types : unconditional (goto label) and conditional (if-goto label). Branching in VM code can be realised using branching in assembly code.
+* For function commands we need to save the caller state before execting callee. call function_name n : here n denotes the no of arguements passed while calling the function. function function_name n : here n denotes the no of local variables to be created before execution. 
+* After completing the callee execution we return the top most value in the stack to argument 0 . it is a rule that there should be atleast one push statement before returning a fucntion in VM code.
 * 
   
 
